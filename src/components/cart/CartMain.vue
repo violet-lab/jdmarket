@@ -4,14 +4,14 @@
       <span>登录后可同步电脑与手机购物车中的商品</span>
       <a href="#" class="login">登录</a>
     </div>
-    <div class="cart_content clearfix" v-for="item in cartDatas">
+    <div class="cart_content clearfix" v-for="(item, index) in cartDatas" :key="index">
       <div class="cart_shop clearfix">
         <div class="cart_check_box">
           <div class="check_box">
           </div>
         </div>
         <div class="shop_info clearfix">
-          <img src="../assets/images/buy-logo.png" alt="" class="shop_icon">
+          <img src="../../assets/images/buy-logo.png" alt="" class="shop_icon">
           <span class="shop_name">{{item.shop_name}}</span>
         </div>
         <div class="cart_free clearfix">
@@ -120,7 +120,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url("../assets/images/shop-icon.png") no-repeat;
+    background: url("../../assets/images/shop-icon.png") no-repeat;
     background-size: 50px 100px;
     background-position: 0 0;
     position: absolute;
@@ -251,7 +251,7 @@
     height: 24px;
     border: 1px solid #CBCBCB;
     text-align: center;
-    float: left;
+    // float: left;
   }
 
   .cart_product_sell .cart_add .my_add {
@@ -282,7 +282,7 @@
   .cart_del .del_top {
     width: 20px;
     height: 5px;
-    background: url("../assets/images/delete_up.png") no-repeat;
+    background: url("../../assets/images/delete_up.png") no-repeat;
     background-size: 20px 5px;
     margin-left: -1px;
   }
@@ -290,7 +290,7 @@
   .cart_del .del_bottom {
     width: 18px;
     height: 18px;
-    background: url("../assets/images/delete_down.png") no-repeat;
+    background: url("../../assets/images/delete_down.png") no-repeat;
     background-size: 18px 18px;
     margin-top: -3px;
   }

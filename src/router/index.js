@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Home from '@/components/home/Home';
 import Category from '@/components/Category';
 import Find from '@/components/Find';
-import Cart from '@/components/Cart';
+import Cart from '@/components/cart/Cart';
 import Mine from '@/components/Mine.vue';
 import Login from '@/components/Login';
 import Reg from '@/components/Reg';
