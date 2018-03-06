@@ -64,22 +64,22 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 |   |── components                              // 页面vue组件
 |   |   |── common                              // 公共组件
 |   |   |   |── NavBottom.vue                   // 导航
-|   |   |── admin                               // 用户
+|   |   |── admin                               //
 |   |   |   |── mine                            //
-│   │   │   |   ├── Mine.vue                    // 主页
-|   |   |   |── Login.vue                       // 登录
-|   |   |   |── reg.vue                         // 注册
-|   |   |── cart                                // 购物车
+│   │   │   |   ├── Mine.vue                    // 用户主页
+|   |   |   |── Login.vue                       // 登录页
+|   |   |   |── reg.vue                         // 注册页
+|   |   |── cart                                //
 |   |   |   |── Cart.vue                        // 购物车主页
-|   |   |── category                            // 分类
+|   |   |── category                            //
 |   |   |   |── Category.vue                    // 分类主页
-|   |   |── find                                // 发现
+|   |   |── find                                //
 |   |   |   |── Find.vue                        // 发现主页
-|   |   |── goodsDetail                         // 商品
+|   |   |── goodsDetail                         //
 |   |   |   |── GoodsDetail.vue                 // 商品主页
-|   |   |── home                                // 首页
+|   |   |── home                                //
 |   |   |   |── Home.vue                        // 首页
-|   |   |── search                              // 搜索
+|   |   |── search                              //
 |   |   |   |── SearchPage.vue                  // 搜索主页
 |   |── router                                  // vue-router路由管理
 |   |── store                                   // vuex状态管理
