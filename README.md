@@ -88,9 +88,20 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 .
 ```
 
-## 目标功能
-
-
+# 目标功能
+- [] 购物车功能
+- [x] 店铺评价页面
+- [x] 单个食品详情页面
+- [x] 商家详情页
+- [x] 登录、注册
+- [x] 修改密码
+- [x] 个人中心
+- [x] 发送短信、语音验证
+- [x] 下载App
+- [x] 添加、删除、修改收货地址
+- [x] 帐户信息
+- [x] 上传头像
+- [x] 定位功能
 
 ## 最终目标
 
