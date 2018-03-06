@@ -1,9 +1,6 @@
 # 前言
 
-[README in English](README-en.md)
-
 学习 vue.js  用vuecli.js编写的项目, 由于vue是比较新的js框架, 阿里, 京东电商网站是大众熟悉的网站,由于本人比较喜欢京东,认为其页面更加简洁, 漂亮, 此demo以京东为模版建造.
-
 
 
 __✨✨✨✨🎉🎉🎉__
