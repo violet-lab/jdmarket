@@ -11,7 +11,7 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios + scss + jade
 
 ## 项目运行
 
-#### 注意：由于涉及大量的 ES6/7 等新属性，本项目采用node  8.9 版本
+#### 注意：由于涉及 ES6/7 等新属性，本项目采用node  8.9 版本
 ``` bash
 # install dependencies
 npm install
@@ -86,8 +86,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 │   ├── main.js                                 // 程序入口文件，加载各种公共组件
 ├── index.html                                  // 入口html文件
 .
-
-
 ```
 
 ## 目标功能
@@ -96,7 +94,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 最终目标
 1、用node.js构建一个模拟京东的前台系统
-1、用vue.js构建一个模拟京东后台系统
+2、用vue.js构建一个模拟京东后台系统
 ## 部分截图
 
 # License
