@@ -30,7 +30,7 @@
     </section>
     <main class="main_goods_box">
       <ul>
-        <li class="goods_item" v-for="item in mDatas">
+        <li class="goods_item" v-for="(index, item) in mDatas" :key="index">
           <router-link :to="'/detail/'+item.product_id" class="goods_item_link">
             <img v-lazy="item.product_img_url" alt="" class="goods_item_pic">
             <div class="goods_right">
@@ -184,7 +184,7 @@
     width: 8px;
     height: 7px;
     display: inline-block;
-    background: url("../assets/images/jd-sprites.png") no-repeat;
+    background: url("../../assets/images/jd-sprites.png") no-repeat;
     background-size: 200px 200px;
   }
 
@@ -205,7 +205,7 @@
     width: 15px;
     height: 13px;
     display: inline-block;
-    background: url("../assets/images/jd-search-sprites.png") no-repeat;
+    background: url("../../assets/images/jd-search-sprites.png") no-repeat;
     background-size: 200px 200px;
     background-position: -178px 3px;
     margin-left: -4px;

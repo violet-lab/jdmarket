@@ -320,7 +320,7 @@
     display: block;
     width: 21px;
     height: 23px;
-    background: url("../assets/images/cart_sprits_all.png") no-repeat top center;
+    background: url("../../assets/images/cart_sprits_all.png") no-repeat top center;
     background-size: 100px 100px;
     margin: 6px auto 0;
   }

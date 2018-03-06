@@ -4,7 +4,7 @@
       <section class="mine_infos clearfix">
         <div class="mmm_info">
           <div class="user_icon">
-            <img src="../assets/images/my_icon.jpg" alt="">
+            <img src="../../../assets/images/my_icon.jpg" alt="">
           </div>
           <div class="user_detal">
             <p class="user_name">{{uInfs.user_name}}</p>
@@ -12,7 +12,7 @@
               <a href="#" class="reg_link">注册会员</a>
               <div class="vip">
               <span class="vip_icon">
-                <img src="../assets/images/vip.png" alt="">
+                <img src="../../../assets/images/vip.png" alt="">
               </span>
                 <a href="#">
                   立享PLUS特权 >
@@ -52,7 +52,7 @@
       <section class="my_order_box">
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/my_order_icon.png" alt="">
+            <img src="../../../assets/images/my_order_icon.png" alt="">
             <span>我的订单</span>
           </div>
           <div class="order_right">
@@ -63,19 +63,19 @@
           <ul>
             <li class="order_item">
               <a href="#" class="order_item_link">
-                <img src="../assets/images/waitpay.png" alt="" class="order_item_pic">
+                <img src="../../../assets/images/waitpay.png" alt="" class="order_item_pic">
                 <span class="order_item_pay">待付款</span>
               </a>
             </li>
             <li class="order_item">
               <a href="#" class="order_item_link">
-                <img src="../assets/images/wuliu.png" alt="" class="order_item_pic">
+                <img src="../../../assets/images/wuliu.png" alt="" class="order_item_pic">
                 <span class="order_item_pay">待收货</span>
               </a>
             </li>
             <li class="order_item">
               <a href="#" class="order_item_link">
-                <img src="../assets/images/tuihuan.png" alt="" class="order_item_pic">
+                <img src="../../../assets/images/tuihuan.png" alt="" class="order_item_pic">
                 <span class="order_item_pay">退换/售后</span>
               </a>
             </li>
@@ -85,7 +85,7 @@
       <section class="my_order_box">
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/mypackage.png" alt="">
+            <img src="../../../assets/images/mypackage.png" alt="">
             <span>我的钱包</span>
           </div>
           <div class="order_right">
@@ -124,7 +124,7 @@
       <section class="my_order_box my_b_info">
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/baitiao1.png" alt="">
+            <img src="../../../assets/images/baitiao1.png" alt="">
             <span>京东白条</span>
           </div>
           <div class="order_right">
@@ -133,7 +133,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/baitiao2.png" alt="">
+            <img src="../../../assets/images/baitiao2.png" alt="">
             <span>客户服务</span>
           </div>
           <div class="order_right">
@@ -142,7 +142,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/bai3.png" alt="">
+            <img src="../../../assets/images/bai3.png" alt="">
             <span>会员plus</span>
           </div>
           <div class="order_right">
@@ -151,7 +151,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/bai4.png" alt="">
+            <img src="../../../assets/images/bai4.png" alt="">
             <span>京东会员</span>
           </div>
           <div class="order_right">
@@ -162,7 +162,7 @@
       <section class="my_order_box my_b_info">
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/huo1.png" alt="">
+            <img src="../../../assets/images/huo1.png" alt="">
             <span>京东火车票</span>
           </div>
           <div class="order_right">
@@ -171,7 +171,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/huo2.png" alt="">
+            <img src="../../../assets/images/huo2.png" alt="">
             <span>1元抢宝</span>
           </div>
           <div class="order_right">
@@ -180,7 +180,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/huo3.png" alt="">
+            <img src="../../../assets/images/huo3.png" alt="">
             <span>我的预约</span>
           </div>
           <div class="order_right">
@@ -189,7 +189,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/huo4.png" alt="">
+            <img src="../../../assets/images/huo4.png" alt="">
             <span>我的必购码</span>
           </div>
           <div class="order_right">
@@ -198,7 +198,7 @@
         </div>
         <div class="order_top_box">
           <div class="order_left">
-            <img src="../assets/images/huo5.jpg" alt="">
+            <img src="../../../assets/images/huo5.jpg" alt="">
             <span>应用推荐</span>
           </div>
           <div class="order_right">
@@ -257,7 +257,7 @@
   .mine_layout .mine_infos{
     width: 100%;
     height: 135px;
-    background: url("../assets/images/userbg.png") no-repeat top center;
+    background: url("../../../assets/images/userbg.png") no-repeat top center;
     padding-top: 10px;
     position: relative;
   }
