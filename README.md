@@ -89,7 +89,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 
 # 目标功能
-- [] 购物车功能
+- [✔] 购物车功能
 - [x] 店铺评价页面
 - [x] 单个食品详情页面
 - [x] 商家详情页
