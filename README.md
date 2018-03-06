@@ -36,8 +36,20 @@ npm test
 ```
 this
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# 项目布局
 
+
+# 目标功能
+
+
+# 总结
+
+
+# 最终目标
+
+# 部分截图
+
+
+# 项目布局
 ```
 .
 ├── build                                       // webpack配置文件
@@ -87,3 +99,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 ```
+# License
