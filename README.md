@@ -11,7 +11,7 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios + scss + jade
 
 ## 项目运行
 
-#### 注意：由于涉及 ES6/7 等新属性，本项目采用node  8.9 版本
+#### 注意：由于涉及 ES6/7 等新特性，本项目采用node  8.9 版本
 ``` bash
 # install dependencies
 npm install
@@ -89,7 +89,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 
 # 目标功能
-- [] 购物车功能
+- [x] 购物车功能
 - [] 店铺评价页面
 - [] 单个食品详情页面
 - [] 商家详情页
