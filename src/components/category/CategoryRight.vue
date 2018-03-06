@@ -3,13 +3,13 @@
     <div class="category_right">
       <div class="category_banner">
         <a href="#">
-          <img src="../assets/images/banner_1.png" alt="">
+          <img src="../../assets/images/banner_1.png" alt="">
         </a>
       </div>
       <div class="category_detail">
         <h3 class="category_n">Hot Category Goods</h3>
         <ul>
-          <li class="category_detail_item" v-for="item in cateGoodsData">
+          <li class="category_detail_item" v-for="(index, item) in cateGoodsData" :key=index>
             <router-link :to="'/detail/'+item.product_id" class="category_detail_item_link">
               <img v-lazy="item.product_img_url" alt="" class="category_detail_item_pic">
               <p class="category_detail_item_name">{{item.product_name}}</p>
