@@ -1,6 +1,6 @@
 # vue-jd
 
-> A Vue.js project for jd
+> A Vue.js project for jdmarket
 
 ## Build Setup
 
