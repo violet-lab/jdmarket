@@ -93,8 +93,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 ## 最终目标
+
 1、用node.js构建一个模拟京东的前台系统
+
 2、用vue.js构建一个模拟京东后台系统
+
 ## 部分截图
 
 # License
