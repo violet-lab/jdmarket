@@ -38,18 +38,8 @@ this
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-# 目标功能
 
-
-# 总结
-
-
-# 最终目标
-
-# 部分截图
-
-
-# 项目布局
+## 项目布局
 ```
 .
 ├── build                                       // webpack配置文件
@@ -99,4 +89,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 ```
+## 目标功能
+
+
+
+## 最终目标
+1、用node.js构建一个模拟京东的前台系统
+1、用vue.js构建一个模拟京东后台系统
+## 部分截图
+
 # License
