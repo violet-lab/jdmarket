@@ -2,7 +2,7 @@
   <div class="home_ban">
     <swiper :options="swiperOption" ref="mySwiper">
       <swiper-slide v-for="(img, index) in imgArray" :key="index">
-        <a href="#fdf"><img :src="img"/></a> 
+        <a href="#fdf"><img :src="img"/></a>
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
@@ -34,13 +34,8 @@
       };
     },
     computed: {
-      swiper () {
-        return this.$refs.mySwiper.swiper;
-      }
     },
     mounted () {
-      console.log('this is current swiper instance object', this.swiper);
-      this.swiper.slideTo(3, 1000, false);
     }
   };
 </script>

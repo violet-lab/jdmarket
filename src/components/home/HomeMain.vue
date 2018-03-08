@@ -56,7 +56,8 @@
 	</div>
 </template>
 <script>
-  export default{
+  import {leftTimer} from '@/assets/js/libs/mUtils';
+  export default {
     data () {
       return {
         homeDatas: [],
@@ -68,7 +69,7 @@
       var _this = this;
       _this.getData();
       setInterval(function () {
-        _this.time = new Date().toLocaleTimeString();
+        _this.time = leftTimer(2018, 3, 9, 12, 0, 0);
       }, 500);
     },
     methods: {
