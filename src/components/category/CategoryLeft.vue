@@ -2,7 +2,7 @@
   <div id="cate_left">
     <div class="category_left">
       <ul class="childbox">
-        <li class="" v-for="item in leftDatas">
+        <li class="" v-for="(item, index) in leftDatas" :key="index">
           <router-link :to="'/catgory/'+item.category_id">
             {{item.category_name}}
           </router-link>
@@ -49,7 +49,7 @@ export default{
   .category_left ul li {
     height: 50px;
     width: 90px;
-    background: #f3f4f6;
+    background: white;
     font-size: 12px;
     font-family: sans-serif;
   }
@@ -62,6 +62,10 @@ export default{
     line-height: 50px;
     border-right: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
+    color:#080808;
+    font-size: 13px;
+    font-weight: bold;
+
   }
 
   .category_left ul li.now {
