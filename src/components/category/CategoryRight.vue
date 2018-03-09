@@ -2,9 +2,7 @@
   <div id="cate_right">
     <div class="category_right">
       <div class="category_banner">
-        <a href="#">
           <img v-lazy="img_url[id]" alt="">
-        </a>
       </div>
       <div class="category_detail">
         <ul class="list" v-for="(item, index) in [,,]" :key=index>
@@ -104,7 +102,7 @@
   }
 
   .category_detail  {
-    margin-top: 10px;
+
     background-color: #fff;
     width: 96%;
     float: right;
