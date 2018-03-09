@@ -15,6 +15,27 @@
         <div class="ic"></div>
       </li>
     </ul>
+    <ul class="md_list">
+      <li v-for="(item, index) in [,,,,,,,]" :key="index" >
+        <div class="md_list_left">
+          <div class="mll_cont">
+            起球毛衣是今年的流行？！真是越来越看不懂时尚了
+          </div>
+          <div class="mll_def">
+            <div class="mll_def_left">
+               <img src="http://m.360buyimg.com/mobilecms/jfs/t2395/165/1992531123/10619/a4247e0/56e8dae2N799695e8.png.webp" alt="">
+            </div>
+            <span>南极星...</span>
+            <span class="mll_def_right">
+              15人阅读
+            </span>
+          </div>
+        </div>
+        <div class="md_list_right">
+          <img src="//m.360buyimg.com/mobilecms/jfs/t18733/39/722505054/152959/f6228dfb/5aa21901Nf7cfbbf8.jpg!q70.jpg.dpg" alt="">
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 <script>
@@ -63,7 +84,7 @@ export default {
   }
   .md-tab_inner {
     overflow: hidden;
-    height: 58px;
+    height: 62px;
     li {
       background-color: white;
       height: 100%;
@@ -82,7 +103,7 @@ export default {
           position: absolute;
           left: 50%;
           margin-left: -9px;
-          top: 1px;
+          top: 0px;
         }
       }
       .ic {
@@ -94,6 +115,51 @@ export default {
     }
     li:first-child {
       background: -webkit-linear-gradient(left, rgb(233, 59, 61), rgb(255, 149, 116));
+    }
+  }
+  .md_list {
+    background-color: rgb(243, 243, 243);
+    max-width: 95%;
+    margin: 10px auto;
+    li {
+      margin-top: 10px;
+      background-color: white;
+      overflow: hidden;
+      height: 120px;
+      .md_list_left {
+
+        margin-top: 7px;
+        margin-left: 7px;
+        float: left;
+        width: 60%;
+        .mll_cont {
+          color: #333;
+          font-size: 16px;
+        }
+        .mll_def {
+          margin-top: 40px;
+
+          height: 33px;
+          line-height: 33px;
+          // overflow: hidden;
+          .mll_def_left {
+            float: left;
+            width: 30px;
+          }
+          .mll_def_right {
+            float: right;
+            width: 60px;
+          }
+        }
+      }
+      .md_list_right {
+
+        margin-right: 7px;
+        margin-top: 7px;
+        background-color: saddlebrown;
+        float: right;
+        width: 35%;
+      }
     }
   }
 </style>

@@ -71,7 +71,7 @@ textarea {
 .top_bar .cartname {
     text-align: center;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: -apple-system,Helvetica,sans-serif;
     font-weight: normal;
     line-height: 45px;
 }
