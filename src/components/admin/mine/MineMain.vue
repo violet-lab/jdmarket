@@ -55,9 +55,9 @@
             <img src="../../../assets/images/my_order_icon.png" alt="">
             <span>我的订单</span>
           </div>
-          <div class="order_right">
+          <router-link tag="div" to="/order" class="order_right">
             <span>全部订单></span>
-          </div>
+          </router-link>
         </div>
         <div class="order_bottom_box">
           <ul>

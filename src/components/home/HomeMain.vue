@@ -69,7 +69,7 @@
       var _this = this;
       _this.getData();
       setInterval(function () {
-        _this.time = leftTimer(2018, 3, 9, 12, 0, 0);
+        _this.time = leftTimer(2018, 3, 11, 12, 0, 0);
       }, 500);
     },
     methods: {

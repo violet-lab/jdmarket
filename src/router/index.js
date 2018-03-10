@@ -9,6 +9,7 @@ import Login from '@/components/admin/Login';
 import Reg from '@/components//admin/Reg';
 import SearchPage from '@/components/search/SearchPage';
 import GoodsDetail from '@/components/goodsDetail/GoodsDetail';
+import Order from '@/components/admin/mine/children/Order.vue';
 Vue.use(Router);
 
 export default new Router({
@@ -46,6 +47,9 @@ export default new Router({
   }, {
     path: '/detail/:id',
     component: GoodsDetail
+  }, {
+    path: '/order',
+    component: Order
   }, {
     path: '/',
     redirect: '/home'
