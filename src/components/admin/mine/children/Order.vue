@@ -113,7 +113,7 @@
     }
     .order_main {
       margin-top: 55px;
-      background-color: rgb(89, 243, 17);
+      background-color: rgb(243, 243, 243);
       height: 2000px;
       width: 100%;
       .om_list {
@@ -139,7 +139,8 @@
       .om_content {
         border-right: solid 10px white;
         border-left: solid 10px white;
-        border-bottom: solid 10px rgb(232, 232, 237);
+        // border-bottom: solid 10px rgb(232, 232, 237);
+        margin-bottom: 10px;
         height: 220px;
         background-color: white;
         .om_content_item {
