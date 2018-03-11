@@ -17,16 +17,31 @@
           </router-link>
         </li>
       </ul>
-      <ul class="om_content">
+      <ul class="om_content" v-for="(item, index) in [,,,,,,]" :key="item">
         <li class="om_content_item">
           <span>订单号 : </span><span>{{order_content_item[0].order_num}}</span>
           <img src="./delete.png" alt="" >
         </li>
         <li class="om_content_item">
-
+          <div class="om_content_item_two_left">
+            <div><span class="state">状&nbsp&nbsp&nbsp态 :</span> <span>已签收</span></div>
+            <div><span class="state">总&nbsp&nbsp&nbsp价 :</span> <span>￥118.80</span></div>
+          </div>
+          <div class="om_content_item_two_right">
+             <span>去评价</span><span>再次购买</span>
+          </div>
         </li>
         <li class="om_content_item">
-
+          <div class="oci_def">
+            <span>JD 京东</span>
+          </div>
+          <div class="oci_con">
+            <img src="//img10.360buyimg.com/n2/jfs/t4024/27/1710044712/118941/948bccf6/58959815nb71fc33b.jpg" alt="">
+            <div>
+              <p>伊利 安慕希希腊风味常温酸奶原味205g*12盒/礼盒装</p>
+              <p>2 件</p>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
@@ -122,8 +137,11 @@
         }
       }
       .om_content {
+        border-right: solid 10px white;
+        border-left: solid 10px white;
+        border-bottom: solid 10px rgb(232, 232, 237);
         height: 220px;
-        background-color: cyan;
+        background-color: white;
         .om_content_item {
           border-top: solid 1px rgb(232, 232, 237);
 
@@ -140,25 +158,88 @@
           img {
             float: right;
             // display: inline-block;
-            width:30px;
+            width:23px;
             // vertical-align: middle;
-            margin-top: 7px;
+            margin-top: 11px;
           }
           // background-color: red;
         }
         .om_content_item:nth-of-type(2) {
           height: 40px;
+          font-size: 12px;
+          line-height: 20px;
+          .om_content_item_two_left {
+            width: 100px;
+            float: left;
+            div .state {
+              color: #666;
+            }
+            div:nth-of-type(1) {
+              color: #3985ff;
+            }
+            div:nth-of-type(2) {
+               color: #e4393c;
+            }
+
+          }
+          .om_content_item_two_right {
+            // background-color: red;
+            width: 140px;
+            float: right;
+            color: white;
+            margin-top: 6px;
+            text-align: center;
+            line-height: 26px;
+
+            span:nth-last-of-type(1){
+              height: 26px;
+              width: 80px;
+              float: left;
+              background: #3884ff;
+              font-size: 14px;
+
+            }
+            span:nth-last-of-type(2){
+              height: 26px;
+              width: 50px;
+              float: right;
+              background: #f19325;
+              font-size: 14px;
+            }
+          }
           // background-color: blue;
         }
         .om_content_item:nth-of-type(3) {
-          height: 75px;
-          // background-color: green;
+          height: 115px;
+          // background-color: red;
+          .oci_def {
+            height: 40px;
+            line-height: 40px;
+            // background-color: orange;
+            span {
+            color: #666;
+            font-family: -apple-system,Helvetica,sans-serif;
+            }
+          }
+          .oci_con {
+            img {
+              float: left;
+              width:18%;
+            }
+            div {
+              background-color: #fff;
+              float: right;
+              width:80%;
+              div{
+                background-color: yellow;
+                font-family: -apple-system,Helvetica,sans-serif;
+                line-height: 21px;
+              }
+            }
+          }
         }
       }
-
     }
-
   }
-
 </style>
 
